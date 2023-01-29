@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles, fonts and js links -->
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@500&family=Risque&family=Roboto+Condensed:wght@700&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    
+    <title>more tailwind practice</title>
+</head>
+
+<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- nav section -->
+    <nav class="nav text-white font-semibold">
+        <div class="navbar h-[50px] flex items-center md:justify-between">
+            <div class="nav-logo ml-10 " >Imon's World</div>
+            <ul class="flex md:gap-5 gap-3 mr-5 items-center">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="myworks.html" class="nav-link">workings</a></li>
+                <button type="button" onclick="call()">
+                    <img src="images/icon/more.png"  id="MyCollapse" class="nav-button ml-10 h-[30px] w-[30px]">
+                </button>
+                <div id="collapseMe" class="social flex items-center gap-2">
+                    <img src="images/icon/fb.svg" alt="fb img">
+                    <img src="images/icon/insta.svg" alt="ints img">
+                    <button type="button" href="twitter.com" class="hover:underline"> 
+                        <img src="images/icon/twitter.svg" alt="twitter img" >
+                    </button type="button">
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav section ends -->
+</body>
+
+</html>

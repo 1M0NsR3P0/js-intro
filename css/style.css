@@ -1,0 +1,45 @@
+body {
+    font-family: 'Aboreto', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Risque', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav {
+    background-color: #348be9;
+    margin: 0 10px;
+}
+.nav-logo{
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    font-weight: 900;
+}
+.container {
+    margin: 0 10px;
+}
+
+.nav-button {
+    background-color: transparent;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        margin: 0 0;
+        max-width: auto 0;
+    }
+    .nav-logo{
+        font-size: 12px;
+    }
+    .nav-button {
+        background-color: transparent;
+        display: block;
+    }
+    .social{
+        display: none;
+        /* overflow: hidden; */
+    }
+}
