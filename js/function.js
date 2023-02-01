@@ -1,7 +1,8 @@
 function funtionName(){
     console.log(`  oh i forgot to say... call it like this \n functionName() inside bracket sent parameter if you want..  iwill show you what is parameter later in this lession
- \n \n\n\n\n\n\n\n\n\n\n ... this is a funtion . funtion is just like a variable. you have to just declare a name and give it a (bracet like this and ) inside this () bracket you can sent some parameters. then curly brackets and  inside this curly bracket make some with to do... thats it (hint fo up! i forgot something dude!! \n\`)`);
+ \n\n\n\n\n ... this is a funtion . funtion is just like a variable. you have to just declare a name and give it a (bracet like this and ) inside this () bracket you can sent some parameters. then curly brackets and  inside this curly bracket make some with to do... thats it (hint fo up! i forgot something dude!! \n\`)`);
 }
+
    
 funtionName();
 // ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -31,7 +32,20 @@ function add(one, two){
 }
 
 function sub(one, two){
-    return one-two;
+    return add(one,two);
 }
-let summ =  add(3, 2)-sub(2,10000000000000)
+let summ =  sub(3, 2) // i told you to substrack but you did the oposit .. you are fired!!!!
 console.log(summ)
+
+// /////////////////////////////
+function movie(){
+
+    return "Din-The day";
+  
+    return "Poran";
+  
+    return "Hawa";
+  
+  }
+  
+  console.log(movie());
