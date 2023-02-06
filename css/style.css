@@ -9,7 +9,12 @@ body {
     background-color: black;
     color: whitesmoke;
 }
-
+.divva{
+    background-color: rgba(255, 255, 255, 0.295);
+    box-shadow: -10px -10px 8px rgba(0, 128, 0, 0.308),10px 10px 20px black;
+    border-left: 2px dotted rgba(172, 255, 47, 0.753);
+    border-top: 2px dotted greenyellow;
+}
 .nav {
     background-color: #00000027;
     margin: 0 0;
@@ -26,23 +31,24 @@ body {
     text-decoration:none;
     font-size: 1.03rem;
 }
-.container {
-    margin: 0 0;
-}
+
 .social a img:hover{
     width: 1.7rem;
     height: 1.7rem;
     
 }
+
 .nav-button {
     background-color: transparent;
     display: none;
 }
 /* banner styles */
 header{
-    background-image: url(../images/video/2.gif);
-    background-size:1366px 710px;
-    background-repeat: no-repeat;
+    background-image: url('../images/video/space.gif');
+    
+    background-size:300px 300px;
+    /* background-repeat: no-repeat; */
+    background-position: center;
 
 }
 .banner-content small{
