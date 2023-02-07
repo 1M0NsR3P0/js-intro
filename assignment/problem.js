@@ -13,8 +13,7 @@ function mindGame(number){
         return 'Error! please enter a Number';
     }
 }
-mindGame(-7.2);
-console.log(mindGame(-7.2))
+
 
 
 // ******************************* // Problem -2 // ***********************************************//
@@ -37,8 +36,7 @@ function evenOdd(strings){
         return 'Please Enter A String type';
     }
 }
-evenOdd(`i Love Birds`);
-console.log(evenOdd(`i Love Birds`))
+
 
 
 // ******************************* // Problem -3 // ***********************************************//
@@ -62,8 +60,7 @@ function isLGSeven(number){
         return 'Please Enter A Number';
     }
 }
-isLGSeven(1)
-console.log(isLGSeven(1))
+
 
 
 // ******************************* // Problem -4 // ***********************************************//
@@ -76,25 +73,18 @@ datas inside of the array is a number or not. if not it will throw errr!
 function findingBadData(inputData){
     if(Array.isArray(inputData)){
         let sum = 0;
-        for(let i = 0; i<=inputData.length; i++){
-            if(typeof inputData[i] == 'number'){
+        for(let i = 0; i<inputData.length; i++){
             if(inputData[i]<0){
                 sum+=1;
             }
         }
-        else{
-            return `Array input must be a number sir!`;
-            
-        }
         return sum;
-        }
     }
     else{
         return `Erorr! it's not an array`;
     }
 }
-// findingBadData([50, -20, 85, 21, -20, -85, -985, 0, -10]);
-console.log(findingBadData([10, -21, -85, -96, 100, 541]))
+
 
 
 // ******************************* // Problem -5 // ***********************************************//
@@ -122,5 +112,3 @@ function gemsToDiamond(friend1Gem, Friend2Gem, Friend3Gem){
         return 'Error!! Wrong parameter type';
     }
 }
-gemsToDiamond(200, 20, 0);
-console.log(gemsToDiamond(200, 20, 0))
